@@ -1,0 +1,96 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(macbook-pro-2016_spiral_1ajpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -25%;
+    width: 50%;
+    height: 100%;
+    background: #F0DFAD;
+    opacity: 0.8;
+}
+.form
+{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    min-height: 400px;
+    background: #EDF0DA;
+    box-shadow: 0 15px 50px rgba(0,0,0,.5);
+    padding: 50px;
+    box-sizing: border-box;
+}
+.h2
+{
+    color: #8F5C38;
+    margin: 0 0 40px;
+    padding: 0;
+}
+.input-box
+{
+    position: relative;
+    margin: 20px 0;
+}
+.input-box input
+{
+        width: 100%;
+        font-size: 16px;
+        border: none;
+        border-bottom: 2px solid #AA4465;
+        outline: none;
+        padding: 10px;
+        padding-left: 25px;
+        box-sizing: border-box;
+        font-weight: bold;
+        color: #AA4465;
+        background: #EDF0DA;
+
+}
+.input-box input:focus,
+.input-box input:valid
+{
+        border-bottom: 2px solid #8F5C38;
+}
+.fa
+{
+    position: absolute;
+    top: 8px;
+    left: 0;
+    font-size: 18px;
+    color: #A89B8C;
+}
+.input-box input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    background: #AA4465;
+    color: #EDF0DA;
+    font-weight: bold;
+    transition: 0.5s; 
+}
+.input-box input[type="submit"]:hover{
+    background: #8F5C38;
+}
+.form a
+{
+    text-decoration: none;
+    color: #777;
+    margin-top: 20px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.5s;
+}
+.form a:hover
+{
+    color: #8F5C38;
+}
