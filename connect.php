@@ -1,5 +1,5 @@
 <?php
-$con = mysql_connect("localhost","root","12345678");
-mysql_select_db("stock",$con);
-mysql_query("SET NAMES utf8");
+$conn=mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+mysqli_query($conn,"SET NAMES utf8");
+$result=mysqli_query($conn,$sql);
 ?>
